@@ -15,6 +15,7 @@
 		81B641B61EF2556300D9268B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81B641B41EF2556300D9268B /* LaunchScreen.storyboard */; };
 		81B641C11EF2556300D9268B /* ActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B641C01EF2556300D9268B /* ActionSheetTests.m */; };
 		81B641CC1EF2556300D9268B /* ActionSheetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B641CB1EF2556300D9268B /* ActionSheetUITests.m */; };
+		81B641DC1EF25BB800D9268B /* HavenActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B641DB1EF25BB800D9268B /* HavenActionSheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		81B641C71EF2556300D9268B /* ActionSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B641CB1EF2556300D9268B /* ActionSheetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetUITests.m; sourceTree = "<group>"; };
 		81B641CD1EF2556300D9268B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81B641DA1EF25BB800D9268B /* HavenActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HavenActionSheet.h; sourceTree = "<group>"; };
+		81B641DB1EF25BB800D9268B /* HavenActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HavenActionSheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		81B641A51EF2556300D9268B /* ActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				81B641D91EF2558F00D9268B /* ActionsSheet */,
 				81B641A91EF2556300D9268B /* AppDelegate.h */,
 				81B641AA1EF2556300D9268B /* AppDelegate.m */,
 				81B641AC1EF2556300D9268B /* ViewController.h */,
@@ -138,6 +142,15 @@
 				81B641CD1EF2556300D9268B /* Info.plist */,
 			);
 			path = ActionSheetUITests;
+			sourceTree = "<group>";
+		};
+		81B641D91EF2558F00D9268B /* ActionsSheet */ = {
+			isa = PBXGroup;
+			children = (
+				81B641DA1EF25BB800D9268B /* HavenActionSheet.h */,
+				81B641DB1EF25BB800D9268B /* HavenActionSheet.m */,
+			);
+			path = ActionsSheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				81B641AE1EF2556300D9268B /* ViewController.m in Sources */,
 				81B641AB1EF2556300D9268B /* AppDelegate.m in Sources */,
 				81B641A81EF2556300D9268B /* main.m in Sources */,
+				81B641DC1EF25BB800D9268B /* HavenActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
